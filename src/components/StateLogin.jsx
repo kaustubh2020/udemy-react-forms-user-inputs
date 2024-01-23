@@ -1,9 +1,6 @@
 import { useState } from "react";
 
 export default function Login() {
-  /*  const [email, setEmail] = useState("");
-  const [password, setPassword] = useState(""); */
-
   const [enteredValue, setEnteredValue] = useState({
     email: "",
     password: "",
@@ -77,7 +74,9 @@ export default function Login() {
       </div>
 
       <p className="form-actions">
-        <button type="reset" className="button button-flat">Reset</button>
+        <button type="reset" className="button button-flat">
+          Reset
+        </button>
         <button className="button">Login</button>
       </p>
     </form>

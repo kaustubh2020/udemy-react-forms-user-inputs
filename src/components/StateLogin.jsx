@@ -11,7 +11,9 @@ export default function Login() {
 
   const handleSubmit = (event) => {
     event.preventDefault();
-    console.log(enteredValue)
+    console.log(enteredValue);
+
+    setEnteredValue({ email: "", password: "" });
   };
 
   function handleInputChange(identifier, value) {
